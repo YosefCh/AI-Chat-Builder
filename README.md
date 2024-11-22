@@ -24,5 +24,5 @@ AI Chat Builder is a versatile tool that allows you to create your own chatbot u
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Yosefch/AI_Chat_Builder.git
-   cd AI_Chat_Builder
+   git clone https://github.com/Yosefch/AI-Chat-Builder.git
+   cd AI-Chat-Builder
