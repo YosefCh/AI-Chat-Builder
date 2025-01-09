@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+                    <html>
+                    <head>
+                    <style>
+                        body {{
+                            background-color: rgb(180, 222, 229);  /* Teal-gray background */
+                            margin: 40px;
+                            padding: 20px;
+                            font-family: Arial, sans-serif;
+                        }}
+                        .date {{
+                            position: absolute;
+                            top: 20px;
+                            right: 40px;
+                            color: #666;
+                        }}
+                        .content {{
+                            margin-top: 60px;
+                        }}
+                        .user-message {{
+                            margin: 20px 0;  /* Increased margin between messages */
+                            padding: 15px;
+                            background-color: #f5f5f5;  /* Light gray for user */
+                            border-radius: 8px;
+                            line-height: 1.6;  /* Increased line height */
+                        }}
+                        .ai-message {{
+                            margin: 20px 0;
+                            padding: 15px;
+                            background-color: rgb(8, 212, 130);  /* Light teal for AI */
+                            border-radius: 8px;
+                            line-height: 1.6;
+                        }}
+                    </style>
+                    </head>
+                    <body>
+                    <div class="date">{date}</div>
+                    <h1>{name}</h1>
+                    <div class="content">
+                    
+
+
+            python_with_html = """
+            for i, message in enumerate(self.history):
+                css_class = "user-message" if i % 2 == 0 else "ai-message"
+                file.write(f'<div class="{css_class}">{message}</div><br><br>\n')
+            file.write("</div></body></html>")
+            """
